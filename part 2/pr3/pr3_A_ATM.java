@@ -47,7 +47,7 @@ public class pr3_A_ATM {
     }
 
     //method to transfer money.
-    public void MoneyTransfer(ATM obj, double amt) {
+    public void MoneyTransfer(pr3_A_ATM obj, double amt) {
         if (blnc - amt >= 300) {
             blnc = blnc - amt;
             obj.blnc = obj.blnc + amt;

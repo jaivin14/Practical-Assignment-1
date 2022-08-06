@@ -23,9 +23,9 @@ public class pr3_B_ATMMain {
         int choice;
         double amt;
         // array list for 10 people's account.
-        ArrayList<ATM> people = new ArrayList<ATM>(); 
+        ArrayList<pr3_A_ATM> people = new ArrayList<pr3_A_ATM>(); 
         for (int i = 1; i <= 10; i++) {
-            people.add(new ATM());
+            people.add(new pr3_A_ATM());
         }
         System.out.print("Enter Your Account Number : ");
         id1 = sc.next();
@@ -68,14 +68,14 @@ public class pr3_B_ATMMain {
                 case 4 : {
                     System.out.print("Enter Account Number To Transfer Money1 :");
                     id2 = sc.next();
-                    int u2 = userID(id2, people);
+                    int u2 = usrID(id2, people);
                     System.out.print("Enter Amount To Transfer : ");
                     amt = sc.nextInt();
                     people.get(usrNumber).MoneyTransfer(people.get(u2), amt);
                     break;
                 }
                 case 5 : {
-                    people.add(new ATM());
+                    people.add(new pr3_A_ATM());
                     System.out.println("Account Created Successfully.");
                     System.out.println("The New Account Number Is :" + people.get(people.size() - 1).getId());
                     break;
@@ -100,7 +100,7 @@ public class pr3_B_ATMMain {
         }
     }
 // for finding the account from the array list
-    public static int usrID(String id1, ArrayList<ATM> people) {
+    public static int usrID(String id1, ArrayList<pr3_A_ATM> people) {
         Scanner s = new Scanner(System.in);
         int usr = 10000;
         int i;
@@ -116,7 +116,7 @@ public class pr3_B_ATMMain {
             System.out.println("No Such Account Exists.\nTry Again..");
             System.out.print("Enter your account id :");
             id1 = s.next();
-            retursrID(id1, people);
+            return usrID(id1, people);
         } 
         else 
         return usr;
