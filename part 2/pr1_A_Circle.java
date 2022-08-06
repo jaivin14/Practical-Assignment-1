@@ -1,3 +1,5 @@
+// this is the supportive class file for the pr1_B
+
 public class pr1_A_Circle{
     private double rad;
 

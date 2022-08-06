@@ -1,3 +1,14 @@
+// Name : Savaliya Jaivin Pareshbhai
+// ID : 21CE120
+
+// Aim : 
+// design a class named Circle containing following attributes and behavior.
+// • Onedouble data field named radius. The default valueis1.
+// • A no-argumentconstructor that creates a default circle.
+// • A Single argument constructor that creates a Circle with the specified radius.
+// • A method named getArea() that returns area of the Circle.
+// • A method named getPerimeter() that returns perimeterof it.
+
 class pr1_B_CircleMain {
     public static void main(String[] args) {
         
