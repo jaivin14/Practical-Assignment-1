@@ -18,8 +18,8 @@
 public class p2_B_AccountMain {
     public static void main(String[] args) {
         // creating the objects 
-        p2_C_AccountCheck Check_object = new p2_C_AccountCheck(105,9000);
-        p2_A_Account Save_object = new p2_A_Account(109,5000);
+        p4_C_AccountCheck Check_object = new p4_C_AccountCheck(105,9000);
+        p4_C_AccountSave Save_object = new p4_C_AccountSave(109,5000);
         System.out.println("\nBefore Withdrawing ....\n");
         System.out.println("\nAccount Details of checking object:");
         System.out.println(Check_object);

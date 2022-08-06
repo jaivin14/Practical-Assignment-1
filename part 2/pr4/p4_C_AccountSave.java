@@ -18,7 +18,7 @@ public class p4_C_AccountSave extends p2_A_Account{
     }
 
     public void withdraw(double money){
-        if(money<=getBalance()){
+        if(money<=getblnc()){
             super.withdraw(money); // parent class method to withdraw amount.
         }
         else {

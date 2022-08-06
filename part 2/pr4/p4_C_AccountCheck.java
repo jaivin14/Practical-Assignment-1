@@ -21,9 +21,9 @@ public class p4_C_AccountCheck extends p2_A_Account {
     //overriding withdraw() method.
     public void withdraw(double money) {
         // condition for over drafting money
-        if (getBalance() - money < -od) {
+        if (getblnc() - money < -od) {
             super.withdraw(money); // parent class method to withdraw amount.
-            setBalance(getBalance()-money*odc);
+            setblnc(getblnc()-money*odc);
             System.out.println(money*odc+"Rs. charge is deducted from your account.");
         } else {
             System.out.println("Can't overdraft money more than " + od + " Rs.");
