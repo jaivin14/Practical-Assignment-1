@@ -5,7 +5,7 @@
 // Develop a Program that illustrate method overloading concept.
 import java.util.Scanner;
 
-public class MethodOverload {
+public class p5_A_methodoverloadingMain {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
