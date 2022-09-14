@@ -1,3 +1,8 @@
+// Name : Savaliya Jaivin Pareshbhai
+// ID : 21CE120
+
+// Write a program that demonstrates use of packages & import statements.
+
 package part3.pr6;
 import part3.pr6.importing;
 public class practical6 {
