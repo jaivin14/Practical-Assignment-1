@@ -4,7 +4,7 @@
 // Write a java program which shows importing of classes from other user 
 // define packages. 
 
-import pr5_import.*;;
+import pr5_import.*;
 
 public class practical5 {
     public static void main(String[] args) {
