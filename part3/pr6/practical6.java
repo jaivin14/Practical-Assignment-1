@@ -2,9 +2,7 @@
 // ID : 21CE120
 
 // Write a program that demonstrates use of packages & import statements.
-
-package part3.pr6;
-import part3.pr6.importing;
+import pr6_import.*;
 public class practical6 {
     public static void main(String[] args) {
         importing obj = new importing();

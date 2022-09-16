@@ -1,4 +1,4 @@
-package part3.pr6;
+package pr6_import;
 import java.util.*;
 public class importing {
     int number;

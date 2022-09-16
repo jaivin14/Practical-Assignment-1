@@ -1,6 +1,6 @@
-package part3.pr5;
+package pr5_import;
 
-class tempClass_package {
+public class tempClass_package {
     public void show()
     {
         System.out.println("This is a Package...");
