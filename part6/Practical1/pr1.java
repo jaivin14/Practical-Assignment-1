@@ -21,12 +21,12 @@ public class pr1 {
 
 class Thread1 extends Thread {
     public void run() {
-        System.out.println("Charusat" + " - This thread is extending Thread class");
+        System.out.println("Hello world" + " - This thread is extending Thread class");
     }
 }
 
 class Thread2 implements Runnable {
     public void run() {
-        System.out.println("Universirty" + " - This thread is implementing Runnable interface");
+        System.out.println("Hello world" + " - This thread is implementing Runnable interface");
     }
 }
