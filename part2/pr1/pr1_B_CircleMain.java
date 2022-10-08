@@ -9,11 +9,12 @@
 // • A method named getArea() that returns area of the Circle.
 // • A method named getPerimeter() that returns perimeterof it.
 
+
 class pr1_B_CircleMain {
     public static void main(String[] args) {
         
         // will call the default constructor and take the defualt values
-        pr1_B_Circle c1 = new pr1_A_Circle();
+        pr1_A_Circle c1 = new pr1_A_Circle();
         
         // it will call the parameterised constructor.
         pr1_A_Circle c2 = new pr1_A_Circle(15);
