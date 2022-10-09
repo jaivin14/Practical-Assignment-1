@@ -16,7 +16,7 @@ public class pr2 {
     {
  
         // Declaring the String
-        String str = "My name is Ankit Savani";
+        String str = "My name is Jaivin Savaliya";
         // Declaring a HashMap of <String, Integer>
         Map<String, Integer> hashMap = new HashMap<>();
  
